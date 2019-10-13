@@ -88,6 +88,11 @@ class Home extends React.Component {
                     forecast = {this.state.forecast}
                 />
             ): (null)}
+            {this.state.apiError ? (
+                <div className="center">
+                <div className="error">Can't contact other app services. Have you deployed them?</div>
+                </div>
+            ):(null)}
         </div>
         )
     }
