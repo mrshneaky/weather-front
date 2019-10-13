@@ -1,0 +1,21 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right:20%;
+}
+.form{
+    
+    display: flex;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:20px;
+    
+}
